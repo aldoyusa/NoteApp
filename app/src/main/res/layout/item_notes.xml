@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title Notes abababababababababababaabababababababababaabababab"
+            android:textColor="@color/text_black"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:id="@+id/description_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Describe Notes abababababababababababaabababababababababaabababab"
+            android:textColor="@color/text_black"
+            android:textSize="16sp"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:layout_below="@+id/title_tv"
+            android:layout_marginTop="5dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
